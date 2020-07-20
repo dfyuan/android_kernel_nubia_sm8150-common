@@ -202,3 +202,6 @@ config NUBIA_OLED_CURRECT_OSC
 	bool "nubia debug lcd"
 	default n
 
+config NUBIA_LCD_BACKLIGHT_CURVE
+	bool "nubia lcd backlight correct curve for brightness"
+	default n
