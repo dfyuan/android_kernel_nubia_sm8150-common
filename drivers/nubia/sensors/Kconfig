@@ -20,12 +20,12 @@ config NUBIA_SENSORS_PROX_PA22X
 	help
 		nubia prox device of pa22x
 ################################################# AMS START
-config NUBIA_SENSORS_TMD2725
+config NUBIA_SENSORS_TMD2725_TP1803
 	tristate "support litehole light/prox sensor driver"
 	depends on NUBIA_SENSORS
 	default n
 	help
-		nubia ambient&&prox device of tmd2725
+		nubia ambient&&prox device of tmd2725 (for tp1803 only)
 ################################################# PROX_ALS START
 config NUBIA_SENSORS_ALS_PROX_ADSP9922
 	tristate "support  als_ps adsp9922 sensor driver"

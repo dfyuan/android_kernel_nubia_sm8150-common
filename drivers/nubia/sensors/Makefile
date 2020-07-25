@@ -11,5 +11,5 @@ obj-$(CONFIG_NUBIA_SENSORS_PRESSURE_DEVICE)		+= pressure_device_ndt.o
 #--------------------------IR Remote------------------------------------#
 obj-$(CONFIG_NUBIA_SENSORS_IR_REMOTE_I_THREE)	+= i_three.o
 #--------------------------IR Remote------------------------------------#
-obj-$(CONFIG_NUBIA_SENSORS_TMD2725)				+= tmd2725/
+obj-$(CONFIG_NUBIA_SENSORS_TMD2725_TP1803)				+= tmd2725/
 
