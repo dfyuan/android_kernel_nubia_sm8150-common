@@ -91,7 +91,7 @@ int nubia_backlight_covert(struct dsi_display *display,
         pr_debug("after nubia backlight, value = %d\n",bl_lvl);
         return bl_lvl;
 }
-else
+#else
 #ifdef NUBIA_BACKLIGHT_CURVE 
 int nubia_backlight_covert(struct dsi_display *display,
                                       int value)

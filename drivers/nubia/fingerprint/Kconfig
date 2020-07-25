@@ -18,6 +18,7 @@ source "drivers/nubia/fingerprint/sunwave_fp/Kconfig"
 
 if NUBIA_SENSORS_FP
 source drivers/nubia/fingerprint/sunwave/Kconfig
+endif
 
 source drivers/nubia/fingerprint/gf5288_right/Kconfig
 source drivers/nubia/fingerprint/gf5288_left/Kconfig
